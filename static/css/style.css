@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    background-color: #101010;
+    color: #fff;
+}
+.navbar{
+    background-color: #101010;
+}
+.navbar,
+.navlink{
+    padding-right: 10%;
+    font-size: 16px;
+}
+.navbar-brand{
+    padding-left: 10%;
+    padding-right: 0;
+    font-size: 26px;
+}
+.homepage-image{
+    width: 100%;
+    padding-right: 5%;
+    padding-left: 10%;
+}
+.home{
+    margin-top: 5%;
+    padding-top: 5%;
+    color: #ffff;
+}
+.home-heading{
+    color: yellow;
+}
+
+.home-main-info{
+    padding-right: 0;
+    margin-right: 0;
+}
+.contact-us-button{
+    border-radius: 200px;
+    font-size: 20px;
+    padding: 5px;
+    background-color: #101010;
+    color: #ffff;
+    border-color: #fff;
+}
+.contact-us-button:hover{
+    background-color: #fff;
+    color: green;
+    font-weight: bold;
+}
+.fa,.fa-whatsapp{
+    margin-left: 20px;
+    color: green;
+}
+#service-section{
+    background-color: #1b1919;
+}
+.services{
+    margin-top: 2%;
+    margin-right: 0;
+    margin-left: 0;
+    padding-left: 0;
+    padding-top: 1%;
+}
+.services-heading{
+    text-align: center;
+    font-weight: bold;
+    color: #fff;
+}
+.services-paragraph{
+    text-align: center;
+}
+.fas{
+    color: yellow;
+}

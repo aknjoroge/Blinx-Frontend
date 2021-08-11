@@ -28,7 +28,7 @@
   <body>
     <div class="all-content" class="content"><!--main container-->
     <!--start of navbar-->
-    <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark ">
       <a class="navbar-brand" href="index.html">Blinx Corporation</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -37,19 +37,19 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="#">Home</a>
+            <a class="nav-link" href="index.html">Home</a>
           </li>
           <li class="nav-item active">
-            <a class="nav-link" href="#">Services</a>
+            <a class="nav-link" href="index.html#service-section">Services</a>
           </li>
           <li class="nav-item active">
-            <a class="nav-link" href="#">Payments</a>
+            <a class="nav-link" href="index.html#payment-section">Payments</a>
           </li>
           <li class="nav-item active">
             <a class="nav-link" href="#">Projects</a>
           </li>
           <li class="nav-item active">
-            <a class="nav-link" href="#">Contact Us</a>
+            <a class="nav-link" href="index.html#contact-us">Contact Us</a>
           </li>
         </ul>
 
@@ -57,13 +57,79 @@
     </nav>
 <!--End of navbar-->
 
+<!--home section-->
+<div class="container home" id="home-section">
+  <div class="row">
+
+    <div class="col-4">
+      <img src="static/images/Black Family - Mom, Dad and Daughter.svg" alt="Home-Image" class="homepage-image">
+    </div>
+    <div class="col-8 home-main-info">
+     <h2 class="home-heading">Blinx Corporation,<br>We Are The Only Solution</h2>
+     <p>At Blinx Corporation, customer satisfaction is paramount.</p>
+     <p>For us, it's solutions for the people, by the people,with the people using Technology.</p><br>
+
+     <p> At Blinx Corporation,our main goal is finding solutions for our customers, and not just solutions, but the best there is.<br><strong style="color: yellow;">Welcome All !!</strong></p>
+    <button class="contact-us-button">Contact Us</button>
+    <a href="https://api.whatsapp.com/send/?phone=254758413462&text=Hello%21+I%27m+interested+in+your+services.&app_absent=0" role="button" id="whatsapp-circle"><i class="fa fa-whatsapp fa-2x" aria-hidden="true"></i></a>
+    </div>
+
+  </div>
+</div>
+<!--home section end-->
+
+<!--start of services section-->
+<div class="services" id="service-section">
+
+<h2 class="services-heading">Services</h2>
+<p class="services-paragraph">We offer a variety of services of which are listed below:</p><br>
+
+  <div class="container">
+    <div class="row">
+
+      <div class="col-sm">
+      <i class="fas fa-mobile icon fa-2x"></i><h6 class="service-item">Mobile App Development</h6>
+      <p class="service-item">Giving users an exceptional experience is what makes us stand out in mobile app development.</p>
+      </div>
+      <div class="col-sm">
+        <i class="fas fa-globe icon fa-2x"></i> <h6 class="service-item">Web Development</h6>
+        <p class="service-item">The perfomance of websites is the most crucial part that makes the difference, fortunately, we have quite an experience in the same.</p>
+      </div>
+      <div class="col-sm">
+        <i class="fas fa-network-wired fa-2x"></i><h6 class="service-item">Network Design and Implimentation</h6>
+        <p class="service-item">For the sake of businesses, enterprises or even homes, we are the solution to your network needs.</p>
+      </div>
+      
+    </div>
+
+    <div class="row">
+
+      <div class="col-sm">
+        <i class="fas fa-file-invoice-dollar fa-2x"></i><h6 class="service-item">Intergration of Payments</h6>
+      <p class="service-item">Payment has never been easy.For that reason both Mobile payments and online mobile payments can be intergrated into your systems by us.</p>
+      </div>
+      <div class="col-sm">
+        <i class="fas fa-blog fa-2x"></i> <h6 class="service-item">Hosting</h6>
+        <p class="service-item">Struggling to host your web app? Say no more, It's part of what we deal with at Blinx Corporation.</p>
+      </div>
+      <div class="col-sm">
+        <i class="fas fa-phone-alt fa-2x"></i><h6 class="service-item">Support</h6>
+        <p class="service-item">We provide 24/7 IT support to both our clients or any individuals seeking clarity for any tech issue.</p>
+      </div>
+      
+    </div>
+  </div>
+
+</div><!--end of services section-->
 
 
 </div><!--end of main container-->
 
+<!--font awesome icons cdn-->
+<script src="https://kit.fontawesome.com/885a196d5c.js" crossorigin="anonymous"></script>
 
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
   </body>
 </html>
