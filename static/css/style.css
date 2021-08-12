@@ -27,9 +27,10 @@ body{
     font-size: 26px;
 }
 .homepage-image{
-    width: 100%;
+    width: 110%;
     padding-right: 5%;
-    padding-left: 10%;
+    padding-left: 0%;
+    max-width: 1000px;
 }
 .home{
     margin-top: 5%;
