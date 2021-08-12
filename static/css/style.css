@@ -26,12 +26,16 @@ body{
     padding-right: 0;
     font-size: 26px;
 }
+
 .homepage-image{
-    width: 110%;
-    padding-right: 5%;
+    width: 100%;
+    max-width: 1500px;
+    min-width: 400px;
+    margin-top: 8%;
+    padding-right: 17%;
     padding-left: 0%;
-    max-width: 1000px;
 }
+
 .home{
     margin-top: 5%;
     padding-top: 5%;
@@ -43,10 +47,13 @@ body{
 }
 .home-text{
     font-size: 25px;
+    padding-right: 0;
 }
 .home-main-info{
     padding-right: 0;
     margin-right: 0;
+    padding-left: 5%;
+    margin-left: 0;
 }
 .contact-us-button{
     border-radius: 200px;
@@ -64,6 +71,9 @@ body{
 .fa,.fa-whatsapp{
     margin-left: 20px;
     color: green;
+}
+@media (max-width:1000px){
+ 
 }
 #service-section{
     background-color: #1b1919;
@@ -87,9 +97,6 @@ body{
 }
 .service-item{
     display: inline-block;
-}
-.col-sm{
-    padding: 2%;
 }
 .fas{
     color: yellow;
