@@ -15,6 +15,7 @@ body{
 }
 .navbar{
     background-color: #101010;
+    height: 120px;
 }
 .navbar,
 .navlink{
@@ -64,19 +65,22 @@ body{
     background-color: #101010;
     color: #ffff;
     border-color: #fff;
+    margin-left:auto;
+    margin-right:auto;
+    display:block;
 }
 .contact-us-button:hover{
     background-color: #fff;
     color: green;
     font-weight: bold;
 }
-.fa,.fa-whatsapp{
+/* .fa,.fa-whatsapp{
     margin-left: 20px;
     color: green;
-}
-@media (max-width:1000px){
+} */
+/* @media (max-width:1000px){
  
-}
+} */
 #service-section{
     background-color: #1b1919;
 }
