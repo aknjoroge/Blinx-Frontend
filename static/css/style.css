@@ -19,14 +19,16 @@ body{
 .navbar,
 .navlink{
     padding-right: 10%;
-    font-size: 16px;
+    font-size: 20px;
 }
 .navbar-brand{
     padding-left: 10%;
     padding-right: 0;
     font-size: 26px;
 }
-
+.navbar{
+    border-image: url(../images/Black\ Family\ -\ Mom\,\ Dad\ and\ Daughter.svg) repeat;
+}
 .homepage-image{
     width: 100%;
     max-width: 1500px;
