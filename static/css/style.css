@@ -21,7 +21,7 @@ body{
     width: 100%;
     /* max-height: 500px; */
 }
-.navbar-fixed-top {
+.fixed-top {
     position:fixed !important;
 }
 .navbar a {
@@ -178,7 +178,7 @@ th{
 Coming Soon Formatting
 =============== */
 .coming-soon-body{
-    background-color: blue;
+    background-color:#1b1919;
 }
 .coming-soon-head{
     font-size: 100px;
