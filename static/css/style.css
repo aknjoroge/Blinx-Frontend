@@ -15,7 +15,7 @@ body{
 }
 .navbar{
     background-color: #101010;
-    height: 120px;
+    height: 100px;
 }
 .navbar,
 .navlink{
@@ -27,9 +27,7 @@ body{
     padding-right: 0;
     font-size: 26px;
 }
-.navbar{
-    border-image: url(../images/Black\ Family\ -\ Mom\,\ Dad\ and\ Daughter.svg) repeat;
-}
+
 .homepage-image{
     width: 100%;
     max-width: 1500px;
@@ -78,9 +76,26 @@ body{
     margin-left: 20px;
     color: green;
 } */
-/* @media (max-width:1000px){
- 
-} */
+@media (max-width:500px){
+ .homepage-image{
+    width: 50%;
+    max-width: 500px;
+    min-width: 300px;
+    margin-top: 15%;
+    padding-right: 5%;
+    padding-left: 5%;
+}
+}
+@media(min-width:700px) and (max-width: 1200px){
+    .homepage-image{
+        width: 100%;
+        max-width: 500px;
+        min-width: 100px;
+        margin-top: 10%;
+        padding-right: 5%;
+        padding-left: 5%;
+    } 
+}
 #service-section{
     background-color: #1b1919;
 }
