@@ -16,22 +16,36 @@ body{
 }
 .navbar{
     background-color: #101010;
-    max-height: 500px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    /* max-height: 500px; */
 }
+.navbar-fixed-top {
+    position:fixed !important;
+}
+.navbar a {
+    float: right;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
 .navbar,
 .navlink{
     padding-right: 10%;
     font-size: 20px;
 }
 .navbar-brand{
-    padding-left: 10%;
+    padding-left: 0%;
     padding-right: 0;
     font-size: 26px;
 }
 
 .homepage-image{
     width: 100%;
-    max-width: 1500px;
+    max-width: 1000px;
     min-width: 400px;
     margin-top: 8%;
     padding-right: 17%;
@@ -233,4 +247,22 @@ textarea{
 .contact-section{
     background-color:#1b1919;
     padding: 1%;
+}
+footer{
+    padding: 5%;
+}
+.footer-menu{
+    color: #fff;
+}
+.footer-menu:hover,
+.footer-menu:focus{
+    color: green;
+}
+.fa{
+    padding: 5%;
+    color: green;
+}
+.copyright:hover,
+.copyright:focus{
+color: green;
 }
