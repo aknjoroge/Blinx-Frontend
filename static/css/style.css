@@ -249,6 +249,12 @@ textarea{
     background-color:#1b1919;
     padding: 1%;
 }
+.form-input{
+    border-radius: 20px;
+}
+.form-input::placeholder{
+    text-align: center;
+}
 footer{
     padding: 5%;
 }
