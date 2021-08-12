@@ -3,12 +3,15 @@
     padding: 0;
 }
 body{
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 0%;
+    margin-right: 0%;
     margin-top: 10%;
     margin-bottom: 10%;
     background-color: #101010;
     color: #fff;
+}
+.all-content{
+    background-color: #101010;
 }
 .navbar{
     background-color: #101010;
@@ -35,8 +38,11 @@ body{
 }
 .home-heading{
     color: yellow;
+    font-size: 40px;
 }
-
+.home-text{
+    font-size: 25px;
+}
 .home-main-info{
     padding-right: 0;
     margin-right: 0;
@@ -66,11 +72,12 @@ body{
     margin-right: 0;
     margin-left: 0;
     padding-left: 0;
-    padding-top: 1%;
+    padding-top: 6%;
+    padding-bottom: 6%;
 }
 .services-heading{
     text-align: center;
-    font-size: 50px;
+    font-size: 40px;
     font-weight: bold;
     color: #fff;
 }
@@ -79,6 +86,9 @@ body{
 }
 .service-item{
     display: inline-block;
+}
+.col-sm{
+    padding: 2%;
 }
 .fas{
     color: yellow;
@@ -90,18 +100,23 @@ body{
     background-color:#101010;
 }
 .payments{
-    padding-top: 5%;
+    margin-top: 1%;
+    margin-right: 0;
+    margin-left: 0;
+    padding-left: 0;
+    padding-top: 6%;
+    padding-bottom: 6%;
 }
 .payments-heading{
     text-align: center;
-    font-size: 50px;
+    font-size: 40px;
 }
 .payments-paragraph{
     text-align: center;
 }
 .payment-table,th, td{
     border: 5px solid green ;
-    font-size: 50px;
+    font-size: 35px;
     text-align: center;
     margin-left: auto;
   margin-right: auto;
@@ -109,4 +124,79 @@ body{
 th{
     background-color: gray;
     color: blue;
+}
+
+/* ==============
+Coming Soon Formatting
+=============== */
+.coming-soon-body{
+    background-color: blue;
+}
+.coming-soon-head{
+    font-size: 100px;
+    text-align: center;
+}
+.coming-soon-paragraph{
+    font-size: 30px;
+    text-align: center;
+}
+
+/* ==============
+Coming Soon Formatting
+=============== */
+
+/* ==============
+Contact Us Section
+=============== */
+
+.contactus{
+    border: 2px solid #101010;
+    border-radius: 2%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin-top: 15%;
+    background: #222222;
+    margin: 6% auto;
+    /* width: 45%; */
+    max-width: 550px;
+    width: 100%;
+}
+.contactus-heading{
+    text-align: center;
+}
+.contact-form{
+    float: center;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+input{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 0;
+    width: 100%;
+}
+textarea{
+    padding-left: 0;
+    padding-right: 0;
+    width: 100%;
+}
+.contactus-button{
+    border-radius: 5px;
+    font-size: 20px;
+    text-align: center;
+    background-color: blue;
+    color: #fff;
+    padding: 2%;
+    width: 30%;
+    border-color: blue;
+}
+.contact-image{
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.contact-section{
+    background-color:#1b1919;
+    padding: 1%;
 }
